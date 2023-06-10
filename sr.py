@@ -1,11 +1,11 @@
 import speech_recognition as sr
 
-filename = "charles-manson.mp3"
+file = "16-122828-0002.wav"
 
 r = sr.Recognizer()
 
 # OPEN FILE
-with sr.AudioFile(f'src/{filename}') as source:
+with sr.AudioFile(f'src/{file}') as source:
     # LOAD AUDIO TO MEMORY
     audio_data = r.record(source)
     # CONVERT SPEECH TO TEXT
