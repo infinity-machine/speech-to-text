@@ -1,6 +1,6 @@
 import speech_recognition as sr
 
-file = "16-122828-0002.wav"
+file = "output.wav"
 
 r = sr.Recognizer()
 
